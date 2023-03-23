@@ -1,5 +1,7 @@
 # Monastery Landing Page
 
+Priests and Events (masses and confession) presented on page are fetched from backend server.
+
 ![Home preview](https://github.com/veskiii/monastery-landing-page/blob/main/src/images/Home.png?raw=true)
 
 ![Priests preview](https://github.com/veskiii/monastery-landing-page/blob/main/src/images/Priests.png?raw=true)
