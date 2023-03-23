@@ -16,6 +16,7 @@ function Modal({
   useEffect(() => {
     const clickHandler = ({ target }) => {
       if (!show || modalContent.current.contains(target)) return;
+      console.log("clickHandler");
       handleClose();
     };
     document.addEventListener('click', clickHandler);
@@ -26,6 +27,7 @@ function Modal({
   useEffect(() => {
     const keyHandler = ({ keyCode }) => {
       if (keyCode !== 27) return;
+      console.log("key handler")
       handleClose();
     };
     document.addEventListener('keydown', keyHandler);
